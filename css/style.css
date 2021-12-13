@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+*:focus{
+    outline: 2px dotted #198C36;
+    outline-offset: 3px;
+    
+}
 body{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
