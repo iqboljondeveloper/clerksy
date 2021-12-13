@@ -7,13 +7,19 @@
     outline-offset: 3px;
     
 }
+html{
+    height: 100%;
+}
 body{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
+    height: 100%;
     padding: 0;
     margin: 0;
     font-size: 18px;
     color: #163A24;
+    display: flex;
+    flex-direction: column;
 }
 .container
 {
@@ -116,6 +122,10 @@ body{
 {
     display: flex;
     justify-content: flex-end;
+}
+/* MAIN */
+.main-class{
+    flex-grow: 1;
 }
 /*  main */
 /* section1 */
